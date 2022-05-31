@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="icon" href="img/cv.png">
+    <!-- background image-->
+    <style>
+        body {
+    background-image: url(img/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+ }
+ </style>
+</head>
+
+<body>
+    <!-- main header and navigation bar-->
+    <header id="main-header">
+        <a href="index.html">
+            <h1>Name Surname</h1>   
+        </a>
+        <nav class="menu-buttons">
+            <a href="index.html">Home</a>
+            <a class="current" href="projects.html">My projects</a>
+            <a href="contact_me.html">Contact me!</a>
+        </nav>
+    </header>
+    <!-- main page content -->
+    <main>
+        
+        <!-- all projects -->
+        <section id="projects">
+            <h2 class="projects-header">Projects</h2>
+            <div id="project-container">
+                <!-- shapes project -->
+                <div id="project-1" class="project">
+                    <img src="img/Shapes.png" alt="Shapes project" />
+                    <h2>Shapes</h2>
+                    <p>
+                        In this project, I have used class inheritance to draw shapes on the screen.
+                        Every shape on the screen is a subclass of an abstract class called shape.
+                    </p>
+                </div>
+                <!-- foxes and rabbit project -->
+                <div id="main-project" class="project">
+                    <img src="img/fox.png" alt="Foxes and rabbit project" />
+                    <h2>Foxes and rabbits</h2>
+                    <p>In this project, I have used inheritance on both classes and interfaces to create a simulation.
+                        In the simulation, foxes and rabbits are placed on a grid and move on every turn.
+                        If a rabit is on an adjacent cell to a fox, the fox can hunt down the rabbit.
+                    </p>
+                </div>
+                <!-- racing cars project -->
+                <div id="project-3" class="project">
+                    <img src="img/racecars.png" alt="Racing cars project" />
+                    <h2>Racing cars</h2>
+                    <p>In this project, I have used arrays and classes in the "Processing" language.
+                        In the project, the cars race to the finish line.
+                        Every winner gets 1 point and the score is tracked throghout all the races.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div>
+
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <p>&#169; Name Surname (2022)</p>
+    </footer>
+    <script src="/script/script.js"></script>
+</body>
+
+</html>
